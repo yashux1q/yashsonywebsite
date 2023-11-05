@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playstation PSP</title>
+    <!--===== CSS=====-->
+    <link rel="stylesheet" href="website.playstation.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1 class="logo">Playstation </h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Play</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a  href="#"></a>Contact</li>
+        </ul>
+        <img src="./game/menu btn.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            </h2>Explore The Gaming World</h2>
+            <div class="line"></div>
+            <h1>Try New Spiderman 2</h1>
+            <a href="#" class="ctn"> Continue </a> 
+        </div>
+    </header>
+
+    <!-- == Upcoming Games == -->
+    <section>
+        <div class="title1">
+            <h1>Upcoming Games</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row1">
+            <div class="col1">
+                <img src="./game/gta5.jpg" alt="Gta 5">
+                <h4>Gta 5</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum veritatis esse nihil aliquid sed commodi consequatur, autem quod, molestias, dolorum neque optio nulla enim a nisi at. Iste, ipsum assumenda!</p>
+                <a href="#" class="ctn">PLAY</a>
+            </div>
+            <div class="col2">
+                <img src="./game/spiderman 22.jpg" alt="Spiderman 2">
+                <h4>Spiderman 2</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum veritatis esse nihil aliquid sed commodi consequatur, autem quod, molestias, dolorum neque optio nulla enim a nisi at. Iste, ipsum assumenda!</p>
+                <a href="#" class="ctn">PLAY</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="Explore">
+        <div class="Explore-content">
+        <h1>Mortal Kombat X</h1>
+        <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, hic aperiam numquam rerum praesentium atque. Enim eius alias ullam, dicta ducimus eaque nam facere consectetur, sapiente nesciunt, velit excepturi laudantium!</p>
+        <a href="#" class="ctn">Play</a>
+        </div>
+    </section>
+
+    <section class="exclusive">
+        <div class="col">
+            <h1>Exclusive Sony Games</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita obcaecati quia, quas, dolorem adipisci voluptas dolore pariatur magni ex magnam odit hic enim nemo. Cum repellendus cupiditate sequi nulla ratione!
+            </p>
+            <a href="#" class="play-button">Play More</a>
+        </div>
+        <div class="container">
+            <div class="image-grid">
+                <img class="image1" src="game/god-of-war-ragnarok-1656749295.jpg" alt="Image 1">
+                <img class="image2" src="game/HD-wallpaper-uncharted-4-game-posters.jpg" alt="Image 2">
+                <img class="image3" src="game/f47eacc6317782c610fb38b14a239d042d87af30.0.jpg" alt="Image 3">
+                <img class="image4" src="game/marvel-s-spider-man-2-ps5-art-648c603db19ce.jpeg" alt="Image 4">
+            </div>
+        </div>
+    </section>
+    </section>
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
